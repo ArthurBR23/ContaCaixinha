@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaFinanceiro", "SistemaFinanceiro\SistemaFinanceiro.csproj", "{C16AA208-AE5E-48CF-B3A4-999E65A7E64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFinanceiroTest", "SistemaFinanceiroTest\SistemaFinanceiroTest.csproj", "{2ADB4564-36AA-406F-9C18-19797D8C8DC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16AA208-AE5E-48CF-B3A4-999E65A7E64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16AA208-AE5E-48CF-B3A4-999E65A7E64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16AA208-AE5E-48CF-B3A4-999E65A7E64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16AA208-AE5E-48CF-B3A4-999E65A7E64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADB4564-36AA-406F-9C18-19797D8C8DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADB4564-36AA-406F-9C18-19797D8C8DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADB4564-36AA-406F-9C18-19797D8C8DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADB4564-36AA-406F-9C18-19797D8C8DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF6C67E0-6DB4-4D05-8102-7FE82D47BC17}
+	EndGlobalSection
+EndGlobal
