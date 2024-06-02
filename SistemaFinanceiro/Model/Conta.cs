@@ -122,16 +122,16 @@ namespace SistemaFinanceiro.Model
                 }
 
                 base.Deposito(valor);
-                _saldo += 1.00m;
+                _saldo += 1;
             }
 
             
             public override decimal Saque(decimal valor)
             {
-                decimal saqueValor = valor + 5.00m;
+                decimal saqueValor = valor + 5;
                 if (Saldo >= saqueValor)
                 {
-                    _saldo -= 5.00m;
+                    _saldo -= 5;
                     return base.Saque(valor);
                 }
                 else
